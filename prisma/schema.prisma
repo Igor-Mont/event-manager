@@ -29,5 +29,6 @@ model Attendee {
   eventId  String @map("event_id")
   event    Event @relation(fields: [eventId], references: [id])
 
+  @@unique([eventId, email])
   @@map("attendes")
 }
