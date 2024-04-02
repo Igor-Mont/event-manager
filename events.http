@@ -2,7 +2,18 @@ POST http://localhost:3030/events
 Content-Type: application/json
 
 {
-  "title": "Evento 2",
+  "title": "Evento 4",
   "details": "Evento de teste",
-  "maximumAttendees": 100
+  "maximumAttendees": 1
+}
+
+
+###
+
+POST http://localhost:3030/events/b69a2566-a0fa-4154-a86d-811e6dea926f/attendees
+Content-Type: application/json
+
+{
+  "name": "Igor",
+  "email": "igo2r@gmail.com"
 }
