@@ -25,3 +25,7 @@ GET http://localhost:3030/events/b69a2566-a0fa-4154-a86d-811e6dea926f
 ###
 
 GET http://localhost:3030/attendees/1/badge
+
+###
+
+GET http://localhost:3030/attendees/1/check-in
